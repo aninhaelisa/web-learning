@@ -38,6 +38,7 @@ O objetivo é registrar minha evolução, praticar conceitos fundamentais e cons
 - Date
 - Math
 - Tratamento de exceções
+- BOM
 
 ## Por que estudar o básico?
 
