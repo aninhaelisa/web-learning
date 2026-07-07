@@ -1,8 +1,8 @@
 # Web Development Learning
 
-Este repositório reúne meus estudos, exercícios e pequenos projetos desenvolvidos durante minha jornada de aprendizado em desenvolvimento web e programação.
+Este repositório reúne meus estudos, revisões, exercícios e pequenos projetos relacionados ao desenvolvimento web.
 
-O objetivo é registrar minha evolução, praticar conceitos fundamentais e construir uma base sólida antes de avançar para tecnologias mais complexas.
+Embora eu já tenha conhecimento em diversos desses assuntos, acredito que revisar e fortalecer os fundamentos é essencial para escrever código de melhor qualidade e evoluir continuamente como desenvolvedora. Este repositório serve como registro da minha evolução e da prática constante.
 
 ### HTML
 - Introdução ao HTML
@@ -46,11 +46,11 @@ Mesmo com a evolução da Inteligência Artificial, dominar os fundamentos conti
 
 ## Objetivos
 
-- Praticar constantemente.
-- Aprender boas práticas de desenvolvimento.
-- Construir uma base sólida em desenvolvimento web.
+- Revisar e consolidar conceitos fundamentais.
+- Praticar boas práticas de desenvolvimento.
+- Experimentar diferentes soluções para um mesmo problema.
 - Documentar minha evolução como desenvolvedora.
-- Desenvolver projetos cada vez mais completos.
+- Construir uma base sólida para tecnologias mais avançadas.
 
 ## Status
 
