@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box; /* Faz com que o tamanho do elemento seja calculado incluindo a borda e o padding */
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: rgba(255, 94, 255, 0.973);
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: pink;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    /* text-decoration: underline; sublinhar*/
+    /* text-decoration: line-through; risco em cima da palavra*/
+    /* text-decoration: overline; risco em cima da palavra*/
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-indent: 10px;
+    font-variant: small-caps;
+    /*Coloca todas as letras em maiusculas*/
+
+}
+
+a {
+    text-decoration: none;
+    /*Tira o sublinhado do link*/
+    color: rgb(255, 28, 65);
+
+    cursor: pointer;
+    /*Coloca o cursor em forma de mãozinha*/
+    font-variant: normal;
+
+    /* cursor:all-scroll;Coloca o cursor em forma de cruz */
+    /* cursor: alias; Coloca o cursor em forma de seta com um simbolo acima*/
+    /* cursor: cell; Coloca o cursor em forma de + */
+    /* cursor: progress; Coloca o cursor em forma de carregamento*/
+    /* cursor: row-resize; Coloca o cursor em forma de seta para cima e para baixo*/
+    /* cursor: col-resize; Coloca o cursor em forma de seta para esquerda e para direita*/
+    /* cursor: context-menu; Coloca o cursor em forma de seta com um simbolo de menu*/
+    /* cursor: copy; Coloca o cursor em forma de seta com um simbolo de +*/
+    /* cursor: crosshair; Coloca o cursor em forma de cruz*/
+    /* cursor: default; Coloca o cursor em forma de seta normal*/
+    /* cursor: e-resize; Coloca o cursor em forma de seta para direita*/
+    /* cursor: ew-resize; Coloca o cursor em forma de seta para esquerda e para direita*/
+    /* cursor: grab; Coloca o cursor em forma de mãozinha*/
+    /* cursor: grabbing;  Coloca o cursor em forma de mãozinha fechada*/
+    /* cursor: help; Coloca o cursor em forma de interrogação*/
+    /* cursor: zoom-in;  Coloca o cursor em forma de lupa com um simbolo de +*/
+    /* cursor: zoom-out;  Coloca o cursor em forma de lupa com um simbolo de -*/
+    /* cursor: wait; Carregando*/
+}
