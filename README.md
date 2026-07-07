@@ -4,29 +4,40 @@ Este repositório reúne meus estudos, exercícios e pequenos projetos desenvolv
 
 O objetivo é registrar minha evolução, praticar conceitos fundamentais e construir uma base sólida antes de avançar para tecnologias mais complexas.
 
-## Tecnologias
+### HTML
+- Introdução ao HTML
+- Estrutura de páginas
+- Elementos semânticos
+- Formulários
+- Tabelas
+- Listas
+- Links e imagens
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
-- Java
-- PHP
-- SQL
+### CSS
+- Introdução ao CSS
+- Seletores
+- Box Model
+- Flexbox
+- CSS Grid
+- Animações
+- Transformações 2D
+- Transformações 3D
 
-Outras tecnologias serão adicionadas conforme meus estudos avançarem.
-
-## Estrutura
-
-- HTML: Estrutura e semântica de páginas.
-- CSS: Estilização, layouts e responsividade.
-- JavaScript: Lógica de programação e manipulação do DOM.
-- Git e GitHub: Controle de versão e colaboração.
-- Java: Fundamentos da linguagem e orientação a objetos.
-- PHP: Desenvolvimento back-end.
-- SQL: Modelagem e consultas em banco de dados.
-- Projetos: Aplicação prática dos conhecimentos adquiridos.
+### JavaScript
+- Introdução ao JavaScript
+- Lógica de programação
+- Variáveis
+- Operadores
+- Condicionais
+- Laços de repetição
+- Funções
+- Arrays
+- Objetos
+- Strings
+- DOM
+- Date
+- Math
+- Tratamento de exceções
 
 ## Por que estudar o básico?
 
