@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: rgb(255, 123, 145);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    outline: solid 2px rgb(248, 86, 113);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.p-h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulos {
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: solid 5px rgb(248, 86, 113);
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+ol li {
+    list-style-type: upper-roman;
+    color: rgb(186, 144, 255);
+}
+
+ul li {
+    list-style-type: square;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: right;
+}
+
+.menu li {
+    background-color: rgb(203, 140, 240);
+    padding: 0;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+a:visited {
+    background-color: rgb(138, 78, 194);
+}
+
+a:hover {
+    background-color: rgb(111, 111, 255);
+}
