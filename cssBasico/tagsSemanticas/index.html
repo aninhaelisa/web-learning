@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Semanticas</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+    }
+
+    body {
+        background: #333333;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+    }
+
+    header {
+        background-image: url(img/imagens/bg-3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        color: white;
+
+        margin-top: 15%;
+        margin-bottom: 30px;
+    }
+
+    .slogan {
+        background-color: #222222;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        border-bottom: 1px solid #ffffff;
+        max-width: 500px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header ul {
+        text-align: right;
+    }
+
+    header ul li {
+        display: inline-block;
+
+        list-style-type: none;
+    }
+
+    header ul li a {
+        display: inline-block;
+        background-color: #222222;
+
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+
+        margin: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        border: 2px solid #ffffff;
+    }
+
+    header ul li a:hover {
+        color: #222222;
+        background-color: pink;
+    }
+
+    section {
+        padding: 20px;
+        margin: 10px;
+        background-color: pink;
+        border-radius: 5px;
+        color: black;
+        text-align: justify;
+        margin-bottom: 20px;
+    
+        max-width: 600px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+
+        margin-top: 0;
+        margin-bottom: 30px;
+
+        background-color: #9068ff;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px #9068ff;
+    }
+
+
+    section a {
+        display: inline-block;
+        background-color: #eb88ff;
+
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+
+        margin: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        border: 2px solid #ffffff;
+    }
+
+    section a:hover {
+        color: #222222;
+        background-color: #ffffff;
+    }
+
+    section p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    footer {
+        background-color: pink;
+        text-align: center;
+        padding: 20px;
+        font-weight: bolder;
+    }
+
+    footer h1{
+        color: #333333;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+
+    <header>
+        <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CURSOS</a></li>
+        </ul>
+        <h1>CURSOS BÁSICO</h1>
+        <p class="slogan">Tudo o que precisa saber para iniciar na carreira</p>
+    </header>
+
+    <section>
+        <h1>O HTML</h1>
+        <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e
+            a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a
+            aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
+        <a href="#">SAIBA MAIS</a>
+    </section>
+
+    <section>
+        <h1>O CSS</h1>
+        <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para
+            descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como
+            SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras
+            mídias.
+        </p>
+        <a href="#">SAIBA MAIS</a>
+    </section>
+
+    <section>
+        <h1>O Javascript</h1>
+        <p>CJavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções
+            de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários
+            outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma
+            linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos,
+            imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.
+        </p>
+        <a href="#">SAIBA MAIS</a>
+    </section>
+
+    <footer>
+        <h1>Copyright © 2026</h1>
+    </footer>
+
+</body>
+
+</html>
