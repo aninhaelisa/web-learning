@@ -14,6 +14,7 @@
     border: 2px solid black;
     padding: 16px;
     width: 300px;
+    height: 100px;
     margin-bottom: 16px;
 }
 
@@ -37,11 +38,23 @@
     background-color: rgb(235, 68, 96);
 }
 
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
 </style>
 
 <body>
 
-    <div class="container fit-content">
+    <div class="container fit-content overflow-hidden">
         <div class="item">lorem</div>
         <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, sint.</div>
         <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloribus nesciunt incidunt
@@ -55,7 +68,7 @@
             delectus quisquam expedita possimus odio.</div>
     </div>
 
-    <div class="container min-content">
+    <div class="container min-content overflow-auto">
         <div class="item">lorem</div>
         <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, sint.</div>
         <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloribus nesciunt incidunt
@@ -69,7 +82,7 @@
             delectus quisquam expedita possimus odio.</div>
     </div>
 
-    <div class="container max-content">
+    <div class="container max-content overflow-scroll">
         <div class="item">lorem</div>
         <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, sint.</div>
         <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloribus nesciunt incidunt
