@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/fundo.jpg);
+    /*https://i.pinimg.com/736x/72/9a/26/729a2626ac3b65cc2033ed4b1f16a379.jpg*/
+    background-repeat: repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    min-width: 90%;
+    min-height: 500px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+h1 {
+    color: rgb(255, 95, 95);
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.tmt {
+    width: 80px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tmt:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.tomate {
+    position: fixed;
+    top: -60px;
+    z-index: 9999;
+    pointer-events: none;
+    animation: queda linear forwards;
+}
+
+@keyframes queda {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0.3;
+    }
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    min-width: 90%;
+    min-height: 500px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 100;
+    color: #3e0000;
+
+    animation: float 4s ease-in-out infinite;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.title-box img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+
+    animation: rotateImg 3s ease-in-out infinite;
+}
+
+.content-1 h1 {
+    font-size: 40px;
+}
+
+.content-1 p {
+    max-width: 700px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+@keyframes float {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotateImg {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg) scale(1.1);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: 1s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
