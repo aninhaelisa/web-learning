@@ -107,6 +107,66 @@
             justify-content: center;
         }
 
+        .vh{
+            width: 10vw;  /* 10% da largura da viewport (área visível de uma página web no navegador)*/
+            height: 10vh; /* 10% da altura da viewport (área visível de uma página web no navegador)*/
+            background-color: rgb(104, 94, 248);
+            color: black;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .f3{
+            width: 50%; /*50% da largura do elemento pai*/
+            height: 50%; /*50% da altura do elemento pai*/
+            background-color: rgb(120, 224, 255);
+            padding: 3vh; /*3% do viewport (área visível de uma página web no navegador)*/
+
+            font-size: 2vh; /*2% de da viewport (área visível de uma página web no navegador)*/
+        }
+
+        .vmin{
+            width: 10vmin; /*10% do menor valor entre a largura e altura da viewport */
+            height: 10vmin; /*10% do menor valor entre a largura e altura da viewport */
+            background-color: rgb(58, 176, 255);
+            color: black;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .f4{
+            width: 50%; /*50% da largura do elemento pai*/
+            height: 50%; /*50% da altura do elemento pai*/
+            background-color: rgb(120, 224, 255);
+            padding: 3vmin; /*3% do menor valor entre a largura e altura da viewport */
+
+            font-size: 2vmin; /*2% do menor valor entre a largura e altura da viewport */
+        }
+
+        .vmax{
+            width: 10vmax; /*10% do maior valor entre a largura e altura da viewport */
+            height: 10vmax; /*10% do maior valor entre a largura e altura da viewport */
+            background-color: rgb(58, 176, 255);
+            color: black;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .f5{
+            width: 50%; /*50% da largura do elemento pai*/
+            height: 50%; /*50% da altura do elemento pai*/
+            background-color: rgb(120, 224, 255);
+            padding: 3vmax; /*3% do maior valor entre a largura e altura da viewport */
+
+            font-size: 2vmax; /*2% do maior valor entre a largura e altura da viewport */
+        }
+
 
     </style>
 
@@ -159,6 +219,26 @@
     <div class="percent">
         porcentagem sem pai
     </div>
+
+    
+    <div class="p vh">
+        <div class="f3">
+            FILHO 1 vh
+        </div>
+    </div>
+
+    <div class="p vmin">
+        <div class="f4">
+            FILHO 1 vmin
+        </div>
+    </div>
+
+    <div class="p vmax">
+        <div class="f5">
+            FILHO 1 vmin
+        </div>
+    </div>
+
 </body>
 
 </html>
