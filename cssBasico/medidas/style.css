@@ -14,7 +14,7 @@ body {
     background-color: #000;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ main{
     height: 100%;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,8 @@ footer{
     height: 100px;
     background-color: rgb(255, 58, 124);
     color: white;
-    flex-shrink: 0; /* Evita que o rodapé encolha quando o conteúdo principal for maior que a altura da tela */
+    flex-shrink: 0;
+    /* Evita que o rodapé encolha quando o conteúdo principal for maior que a altura da tela */
 }
 
 .p {
@@ -272,4 +273,16 @@ footer{
     align-items: center;
     justify-content: center;
 
+}
+
+.calc {
+    /*A função calc() permite realizar cálculos matemáticos para determinar valores de propriedades CSS. Ela pode ser usada para combinar diferentes unidades de medida, como pixels, porcentagens, ems, rems, entre outras.*/
+    width: calc(50% - 20px);
+    /*O elemento terá a largura de 50% do elemento pai menos 20px*/
+    height: calc(50% - 20px);
+    /*O elemento terá a altura de 50% do elemento pai menos 20px*/
+    background-color: rgb(132, 144, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
