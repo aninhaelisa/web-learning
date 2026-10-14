@@ -1,0 +1,28 @@
+:root {
+    --cor1: #ff6b6b;
+    --cor2: #4ecdc4;
+    --cor3: #45b7d1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cor1 {
+    background-color: var(--cor1);
+}
+
+.cor2 {
+    background-color: var(--cor2);
+}
+
+.cor3 {
+    background-color: var(--cor3);
+}
+
+div {
+    padding: 30px;
+    text-align: center;
+}
