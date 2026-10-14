@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form autocomplete="off">
+        <fieldset>
+            <legend>Formulario de contato</legend>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" placeholder="Seu Nome Completo" required id="nome" >
+
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Seu Email" required id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" placeholder="(00) 00000-0000" required id="telefone">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" placeholder="Digite sua mensagem" required id="mensagem" maxlength="1000" minlength="20"></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
