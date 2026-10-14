@@ -18,6 +18,12 @@
         <progress max="100" value="50">50%</progress>
     </label>
 
+    <form oninput="result.value=parseInt(idadeA.value)*parseInt(idadeB.value)">
+        <input type="number" name="idadeA" placeholder="Idade" required id="idadeA" min="10" max="100"> x
+        <input type="number" name="idadeB" placeholder="Idade" required id="idadeB" min="10" max="100"> =
+        <output name="result" for="idadeA idadeB"></output>
+    </form>
+
 </body>
 
 </html>
