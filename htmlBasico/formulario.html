@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIPOS DE FORMULARIOS</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Introdução</legend>
+            <label for="email">Email</label>
+            <input type="Email" name="Email" placeholder="Email" required id="email">
+            <br><br>
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" placeholder="Idade" required id="idade" min="10" max="100">
+            <br><br>
+            <label for="data">Nascimento</label>
+            <input type="date" name="data" required id="data" min="1900-01-01" max="2024-12-31">
+            <br><br>
+            Possui filhos?
+            <label>
+                <input type="radio" name="filhos" value="sim" id="sim">sim
+            </label>
+            <label>
+                <input type="radio" name="filhos" value="nao" id="nao">não
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Area de Interesse</legend>
+            <label for="interesse">Selecione uma opção</label>
+            <select name="interesse" id="interesse">
+                <option value="informatica">Informatica</option>
+                <option value="saude">Saúde</option>
+                <option value="educacao">Educação</option>
+                <option value="esporte">Esporte</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="msg" id="mensagem" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
