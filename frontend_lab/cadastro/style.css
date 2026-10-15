@@ -1,10 +1,10 @@
-html{
+html {
     background-color: #323232;
     font-family: Helvetica, Arial, sans-serif;
     color: white;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body{
     margin: 0;
 }
 
-form{
+form {
     width: 90%;
     min-width: 28.125em;
     max-width: 35em;
@@ -20,13 +20,15 @@ form{
     padding: 1em;
 }
 
-fieldset{
+fieldset {
     border: none;
     padding: 0;
     margin: 0;
 }
 
-label, input, textarea{
+label,
+input,
+textarea {
     display: block;
     width: 100%;
     margin-bottom: 1em;
@@ -34,16 +36,39 @@ label, input, textarea{
     color: white;
 }
 
-input, textarea{
+input,
+textarea {
     padding: 0.5em;
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #080808a6;
     margin: 0.5em 0;
     border-bottom-color: rgb(255, 96, 122);
+    outline: none;
 }
 
-legend{
+/*input:invalid,
+textarea:invalid {
+    background-color: rgba(128, 0, 0, 0.979);
+    color: white;
+}
+
+input:valid, textarea:valid{
+    background-color: rgba(224, 255, 177, 0.897);
+    color: #000000;
+}*/
+
+input:invalid:focus, textarea:invalid:focus{
+    background-color: rgba(128, 0, 0, 0.979);
+}
+
+input:focus,
+textarea:focus {
+    background-color: white;
+    color: black;
+}
+
+legend {
     padding: 0.5em 0;
     text-align: center;
     font-weight: bold;
@@ -51,7 +76,7 @@ legend{
     font-size: 1.3em;
 }
 
-.btn{
+.btn {
     padding: 0.5em 1em;
     background-color: rgb(255, 96, 122);
     color: white;
@@ -62,7 +87,7 @@ legend{
     transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(255, 96, 122);
     transform: scale(1.05);
 }
