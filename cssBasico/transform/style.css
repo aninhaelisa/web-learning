@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+}
+div{
+    outline: 1px solid palevioletred;
+    width: 300px;
+    margin: 0.5em auto;
+
+}
+
+p{
+    width: 50%;
+}
+
+.dest{
+    background-color: paleturquoise;
+}
+
+.div1 .dest{
+    transform: translate(50%);
+}
+
+.div2 .dest{
+    position: relative;
+    top: -50px;
+    left: -50px;
+}
+
+.div3 .dest{
+    transform: rotate(30deg);
+}
+
+.div4 .dest{
+    transform: scale(1.5);
+}
+
+.div5 .dest{
+    transform: skew(50deg);
+}
