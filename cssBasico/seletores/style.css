@@ -1,0 +1,45 @@
+
+article{
+    outline: 4px solid royalblue;
+}
+
+article a{
+    color: rgb(255, 119, 142);
+}
+
+article a > b{
+    color: cadetblue;
+}
+
+h3 + p{
+    background-color: rgb(208, 170, 243);
+    color: white;
+}
+
+hr ~ p{
+    border: 4px dashed pink;
+}
+
+.dest{
+    padding-left: 2em;
+}
+
+p:not(.dest){
+    background-color: rgba(78, 78, 78, 0.342);
+}
+
+a[href="#"]{
+    opacity: 0.5;
+}
+
+a[href^="http"]{
+    color: rgb(255, 54, 47);
+}
+
+a[href$=".pdf"]{
+    color: rgb(159, 255, 156);
+}
+
+a[target]{
+    text-decoration: none;
+}
