@@ -1,0 +1,16 @@
+div :first-child{
+    color: pink;
+}
+
+p:last-child{
+    color: cadetblue;
+}
+
+p:nth-child(2){
+    background-color: brown;
+}
+
+/*p:last-of-type{
+    background-color: chocolate;
+    color: white;
+}*/
