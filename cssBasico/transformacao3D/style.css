@@ -1,0 +1,26 @@
+.cena{
+    border: 2px solid #ccc;
+    width: 300px;
+    aspect-ratio: 1;
+    margin: 80px;
+}
+
+.plano{
+    background-color: rgba(221, 160, 221, 0.685);
+    /*backface-visibility: hidden;*/
+    aspect-ratio: 1;
+    width: 200px;
+}
+#cena1{
+    perspective: 400px;
+}
+
+.cena1a{
+    transform: rotateY(25deg);
+    transform-style: preserve-3d;
+
+}
+
+.cena1b{
+    transform: rotateX(55deg);
+}
