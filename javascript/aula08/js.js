@@ -27,3 +27,7 @@ function add() {
     inEmail.value = "";
 }
 
+function limpar(){
+    dados = [];
+    document.getElementById("lista").innerHTML = "";
+}
