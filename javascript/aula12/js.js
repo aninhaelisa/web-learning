@@ -45,4 +45,23 @@ console.log(frutas.join(" - ")); // transforma os elementos do array em uma úni
 
 console.log(verduras.toString()); // converte o Array para uma String
 
-// push(), pop(), shift(), unshift(), slice(), splice()
+// push(), pop(), shift(), unshift(), slice(), splice()--------------------------------------------
+let nomes = ["Ana", "João", "Mariana", "Marcelo"];
+console.log(nomes);
+
+nomes.push("Felipe"); // adiciona ao final da lista
+console.log(nomes);
+
+console.log(nomes.pop()); // remove o ultimo elemento do array
+console.log(nomes);
+
+console.log(nomes.shift()); // remove o primeiro elemento do array
+console.log(nomes);
+
+console.log(nomes.unshift("Katarina")); // adciona um ou mais elementos no começo do Array
+console.log(nomes);
+
+console.log(nomes.slice(1,3)); // slice(1, 3) começa no índice 1 e termina antes do índice 3 
+
+nomes.splice(1,3, "Josue"); // adicionar, remover ou substituir elementos
+console.log(nomes);
