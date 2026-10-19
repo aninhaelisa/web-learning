@@ -34,3 +34,15 @@ console.log(n1.find(n => n> 67)); // retorna o primeiro valor que corresponde a 
 
 console.log(n1.findIndex(n => 67)) // retorna o primeiro valor que corresponde a condição. Se nenhum atender, retorna -1
 
+//concat(), join(), toString() --------------------------------------------------------------------
+console.log("-".repeat(30));
+let frutas = ["maça", "uva", "banana", "melancia", "kiwi", "abacaxi"];
+let verduras = ["alface", "couve", "repolho", "brocolis"];
+
+console.log(frutas.concat(verduras)); // junta duas ou mais arrays
+
+console.log(frutas.join(" - ")); // transforma os elementos do array em uma única string, usando um separador escolhido
+
+console.log(verduras.toString()); // converte o Array para uma String
+
+// push(), pop(), shift(), unshift(), slice(), splice()
