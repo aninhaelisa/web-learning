@@ -1,3 +1,4 @@
+//every(), some(), forEach(), filter() e map()----------------------------------------------------
 const numeros = [1, 3, 5, 88, 0, 1, -1];
 let resul1 = numeros.every(n => n > 0); // todos os numeros atendem a condição?
 console.log(resul1); // false, pq nem todos os numeros são maiores q zero
@@ -9,8 +10,27 @@ numeros.forEach(n => {
     console.log("numero: " + n); // lista de numeros completa
 })
 
-let resul3 = numeros.filter(n => n>4); // Quais numeros são maiores que 4?
+let resul3 = numeros.filter(n => n > 4); // Quais numeros são maiores que 4?
 console.log(resul3);// 5, 88
 
 let resul4 = numeros.map(n => n * 2); // map cria uma nova lista, neste caso, lista com os numeros mutiplicados por 2
 console.log(resul4);
+
+
+//indexOf(), lastIndexOf(), includes(), find(), findIndex()---------------------------------------
+console.log("-".repeat(30));
+const n1 = [1, 44, 76, 67, 9, 99, 100, 122, 1];
+console.log(n1);
+
+console.log(n1.indexOf(76)); // retorna o indice da primeira ocorrencia de um valor
+console.log(n1.indexOf(450)); // se não encontrar o valor, retorna -1
+
+console.log(n1.lastIndexOf(1)); // retorna o indice da ultima ocorrencia de um valor
+console.log(n1.lastIndexOf(450)); // se não encontrar o valor, retorna -1
+
+console.log(n1.includes(122)); // inclui 122? true
+
+console.log(n1.find(n => n> 67)); // retorna o primeiro valor que corresponde a condição. Se nenhum atender, retorna undefined
+
+console.log(n1.findIndex(n => 67)) // retorna o primeiro valor que corresponde a condição. Se nenhum atender, retorna -1
+
