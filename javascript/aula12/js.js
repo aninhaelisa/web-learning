@@ -65,3 +65,17 @@ console.log(nomes.slice(1,3)); // slice(1, 3) começa no índice 1 e termina ant
 
 nomes.splice(1,3, "Josue"); // adicionar, remover ou substituir elementos
 console.log(nomes);
+
+// reverse(), reduce() 
+console.log("-".repeat(30));
+let materias = ["ed.fisica", "matematica", "portugues", "artes"];
+console.log(materias);
+
+materias.reverse(); // inverte a ordem dos elementos do array original
+console.log(materias);  
+
+let num1 = [10, 20, 30, 40];
+let soma = numeros.reduce((acumulador, numero) => { // reduce: Percorre os elementos do array e acumula um resultado. É muito usado para somar valores, calcular totais e agrupar dados.
+    return acumulador + numero;
+}, 0);
+console.log(soma);
