@@ -55,3 +55,6 @@ Mesmo com a evolução da Inteligência Artificial, dominar os fundamentos conti
 ## Status
 
 🚧 Em constante atualização.
+
+## AUTORA 
+ [@aninhaelisa](https://github.com/aninhaelisa)
